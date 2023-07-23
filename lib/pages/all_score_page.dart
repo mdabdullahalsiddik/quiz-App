@@ -1,7 +1,6 @@
-import 'dart:io';
+import 'dart:math';
 
 import 'package:flutter/material.dart';
-
 import 'package:quiz_app/widgets/costom_scor_card.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -65,7 +64,7 @@ class _AllScoreState extends State<AllScore> {
                               backgroundColor:
                                   MaterialStatePropertyAll(Colors.orange)),
                           onPressed: () {
-                            exit(0);
+                            exp(0);
                           },
                           child: Text("Yes",
                               style: TextStyle(color: Colors.black))),
